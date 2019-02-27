@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+# Bootstrap form gem
 gem 'bootstrap_form'
+# Login/User authentication gem
 gem 'devise'
+#
 gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
@@ -38,6 +41,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  gem 'rspec-rails', '~> 3.6'
+  gem 'factory_girl_rails'
+  gem 'rails-controller-testing'
+  gem 'headless'
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development do
