@@ -8,7 +8,7 @@ def seed_users
       password: '123456',
       password_confirmation: '123456'
     )
-    user_id = user_id + 1
+    user_id += 1
   end
 end
 
