@@ -1,3 +1,17 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.solid-color-mode, .border-color-mode {
+  .post-text {
+    text-align: center;
+  }
+}
+
+.solid-color-mode {
+  .post-text {
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+  }
+}
+
+.border-color-mode {
+  background-color: white;
+}
