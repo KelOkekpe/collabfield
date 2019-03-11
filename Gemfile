@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#pagination gem
+gem 'will_paginate', '~> 3.1.0'
 # Bootstrap form gem
 gem 'bootstrap_form'
 # Login/User authentication gem
